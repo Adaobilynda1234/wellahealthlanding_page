@@ -202,7 +202,7 @@ footer {
     width: 300px;
     padding: 16px;
     margin-top: 48px;
-    margin-left: 0px;
+    margin-left: 2s0px;
     font-size: 16px;
     color: #1b2124;
     font-weight: 400;
@@ -218,6 +218,7 @@ footer {
     width: 300px;
     padding: 16px;
     margin-top: 48px;
+    margin-left: 20px;
     font-size: 16px;
     color: #1b2124;
     font-weight: 400;
@@ -233,6 +234,7 @@ footer {
     width: 300px;
     padding: 16px;
     margin-top: 48px;
+    margin-left: 20px;
     font-size: 16px;
     color: #1b2124;
     font-weight: 400;
@@ -259,19 +261,20 @@ footer {
     padding: 10px;
     height: 380px;
     width: 300px;
+    font-size: 15px;
     background-size: cover;
   }
   .verticalLine {
     display: none;
   }
   .nhia {
-    margin-left: 70px;
+    margin-left: 90px;
   }
   .pcn {
-    margin-left: 70px;
+    margin-left: 90px;
   }
   pre {
-    margin-left: 70px;
+    margin-left: 90px;
   }
   .FAQs {
     margin: 10px;
@@ -279,7 +282,7 @@ footer {
     border-radius: 12px;
     padding: 30px;
     color: black;
-    height: 1500px;
+    height: 1400px;
     width: 300px;
     background-color: #ffffff;
     align-items: center;
@@ -288,6 +291,7 @@ footer {
     background: black;
     color: white;
     height: 300px;
+    width: auto;
     padding-bottom: 300px;
   }
 }
