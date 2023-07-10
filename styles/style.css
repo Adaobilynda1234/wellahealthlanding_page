@@ -1,0 +1,264 @@
+body {
+  background: #f7f7f7;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "poppins", serif;
+}
+
+#tel {
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.play {
+  position: relative;
+  display: block;
+  left: 500px;
+  bottom: 300px;
+}
+.imPlay {
+  position: relative;
+  display: block;
+  bottom: 100px;
+  left: 100px;
+  height: 50px;
+  width: 50px;
+}
+.callMe {
+  border-radius: 20px;
+  background-color: orange;
+  margin: 2px;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+  color: brown;
+}
+.watchVideo {
+  border-radius: 4px;
+  background-color: orange;
+  color: brown;
+  margin: 4px;
+  border: none;
+}
+.submit {
+  margin: 2px;
+  border-radius: 4px;
+  color: blue;
+  background: white;
+  padding: 5px;
+  font-size: 14px;
+  border: thin solid black;
+}
+.story {
+  background: white;
+}
+.disease_management {
+  background-color: #b5dbff;
+  border-radius: 20px;
+  align-items: left;
+  height: 420px;
+  width: 433.34px;
+  padding: 16px;
+  margin-top: 48px;
+  font-size: 16px;
+  color: #1b2124;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.peace-0f-mind {
+  background-color: #bcefc4;
+  border-radius: 20px;
+  align-items: left;
+  height: 420px;
+  width: 433.34px;
+  padding: 16px;
+  margin-top: 48px;
+  font-size: 16px;
+  color: #1b2124;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.Funds-Transparency {
+  background-color: #e5c282;
+  border-radius: 20px;
+  align-items: left;
+  height: 420px;
+  width: 433.34px;
+  padding: 16px;
+  margin-top: 48px;
+  font-size: 16px;
+  color: #1b2124;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.HIW {
+  display: block;
+  margin: auto;
+}
+.early-adopter {
+  margin: 20px;
+  margin-left: 50px;
+  border-radius: 12px;
+  padding: 30px;
+  color: black;
+  height: 380px;
+  width: 900px;
+  background-color: #ffffff;
+  align-items: center;
+}
+.ireland {
+  background-image: url(/images/ireland.svg);
+  margin: 20px;
+  margin-left: 50px;
+  border-radius: 12px;
+  padding: 30px;
+  height: 380px;
+  max-width: 900px;
+  display: grid;
+  background-size: cover;
+}
+.verticalLine {
+  height: 80px;
+  position: absolute;
+  border-left: 1px solid black;
+  left: 50%;
+}
+.nhia {
+  margin-left: 300px;
+}
+.pcn {
+  padding: 3px;
+}
+.FAQs {
+  margin: 20px;
+  margin-left: 200px;
+  border-radius: 12px;
+  padding: 30px;
+  color: black;
+  height: 380px;
+  width: 900px;
+  background-color: #ffffff;
+  align-items: center;
+}
+footer {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  h4 {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  #tel {
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  .callMe {
+    margin: 5px;
+  }
+  .play {
+    position: relative;
+    display: block;
+    left: 105px;
+    bottom: 100px;
+  }
+  .disease_management {
+    background-color: #b5dbff;
+    border-radius: 20px;
+    align-items: left;
+    height: 420px;
+    width: 300px;
+    padding: 16px;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #1b2124;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+  .peace-0f-mind {
+    background-color: #bcefc4;
+    border-radius: 20px;
+    align-items: left;
+    height: 450px;
+    width: 300px;
+    padding: 16px;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #1b2124;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+  .Funds-Transparency {
+    background-color: #e5c282;
+    border-radius: 20px;
+    align-items: left;
+    height: 480px;
+    width: 300px;
+    padding: 16px;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #1b2124;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+  .early-adopter {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    color: black;
+    height: 600px;
+    width: 300px;
+    background-color: #ffffff;
+    align-items: center;
+  }
+  .ireland {
+    background-image: url(/images/ireland.svg);
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .nhia {
+    margin-left: 70px;
+  }
+  .pcn {
+    margin-left: 70px;
+  }
+  pre {
+    margin-left: 70px;
+  }
+  .FAQs {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 30px;
+    color: black;
+    height: 1200px;
+    width: 300px;
+    background-color: #ffffff;
+    align-items: center;
+  }
+}
