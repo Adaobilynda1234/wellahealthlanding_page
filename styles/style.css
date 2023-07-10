@@ -54,6 +54,15 @@ p {
 .story {
   background: white;
 }
+.healthV {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.voucher {
+  margin-left: 100px;
+  margin-top: 50px;
+  line-height: 2rem;
+}
 .disease_management {
   background-color: #b5dbff;
   border-radius: 20px;
@@ -61,12 +70,13 @@ p {
   height: 420px;
   width: 433.34px;
   padding: 16px;
-  margin-top: 48px;
+  margin-top: 130px;
+  margin-left: 120px;
   font-size: 16px;
   color: #1b2124;
   font-weight: 400;
   line-height: 1.5;
-  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
 .peace-0f-mind {
@@ -81,7 +91,7 @@ p {
   color: #1b2124;
   font-weight: 400;
   line-height: 1.5;
-  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
 .Funds-Transparency {
@@ -96,7 +106,7 @@ p {
   color: #1b2124;
   font-weight: 400;
   line-height: 1.5;
-  font-family: Greycliff Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -106,7 +116,7 @@ p {
 }
 .early-adopter {
   margin: 20px;
-  margin-left: 50px;
+  margin-left: 150px;
   border-radius: 12px;
   padding: 30px;
   color: black;
@@ -116,14 +126,15 @@ p {
   align-items: center;
 }
 .ireland {
-  background-image: url(/images/ireland.svg);
+  background-image: url(/images/ir.svg);
   margin: 20px;
-  margin-left: 50px;
+  margin-left: 150px;
   border-radius: 12px;
   padding: 30px;
   height: 380px;
   max-width: 900px;
   display: grid;
+  color: white;
   background-size: cover;
 }
 .verticalLine {
@@ -152,6 +163,8 @@ p {
 footer {
   background: black;
   color: white;
+  height: 150px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 900px) {
@@ -172,6 +185,15 @@ footer {
     left: 105px;
     bottom: 100px;
   }
+  .healthV {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .voucher {
+    margin-left: 0px;
+    margin-top: 10px;
+    line-height: 2rem;
+  }
   .disease_management {
     background-color: #b5dbff;
     border-radius: 20px;
@@ -180,6 +202,7 @@ footer {
     width: 300px;
     padding: 16px;
     margin-top: 48px;
+    margin-left: 0px;
     font-size: 16px;
     color: #1b2124;
     font-weight: 400;
@@ -229,7 +252,7 @@ footer {
     align-items: center;
   }
   .ireland {
-    background-image: url(/images/ireland.svg);
+    background-image: url(/images/ir.svg);
     margin: 10px;
     margin-left: 20px;
     border-radius: 12px;
@@ -256,9 +279,15 @@ footer {
     border-radius: 12px;
     padding: 30px;
     color: black;
-    height: 1200px;
+    height: 1500px;
     width: 300px;
     background-color: #ffffff;
     align-items: center;
+  }
+  footer {
+    background: black;
+    color: white;
+    height: 300px;
+    padding-bottom: 300px;
   }
 }
